@@ -1,0 +1,70 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Electronics",
+        "slug": "electronics",
+        "description": "Top electronics and gadgets.",
+        "subcategories": [
+          {
+            "id": 1,
+            "category_id": 1,
+            "name": "Electric Toothbrush",
+            "slug": "electric-toothbrush",
+            "description": "Best electric toothbrushes for dental care.",
+            "items": [
+              {
+                "id": 1,
+                "subcategory_id": 1,
+                "name": "Philips Sonicare",
+                "rank": 1,
+                "description": "Best electric toothbrush for sensitive gums.",
+                "image": "https://example.com/philips-sonicare.jpg",
+                "source": "Amazon",
+                "average_rating": 4.8,
+                "total_reviews": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Cricket",
+        "slug": "cricket",
+        "description": "Top cricket players and equipment.",
+        "subcategories": [
+          {
+            "id": 3,
+            "category_id": 2,
+            "name": "India Team",
+            "slug": "india-team",
+            "description": "Top players in the Indian cricket team.",
+            "items": [
+              {
+                "id": 1,
+                "name": "Virat Kohli",
+                "rank": 1,
+                "description": "Indian captain, one of the best batsmen in the world.",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Virat_Kohli_in_PMO_New_Delhi.jpg/220px-Virat_Kohli_in_PMO_New_Delhi.jpg",
+                "source": "ESPN",
+                "average_rating": 4.9,
+                "total_reviews": 1000
+              },
+              {
+                "id": 2,
+                "name": "Rohit Sharma",
+                "rank": 2,
+                "description": "Indian captain, one of the second best batsmen in the world.",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Prime_Minister_Of_Bharat_Shri_Narendra_Damodardas_Modi_with_Shri_Rohit_Gurunath_Sharma_%28Cropped%29.jpg/220px-Prime_Minister_Of_Bharat_Shri_Narendra_Damodardas_Modi_with_Shri_Rohit_Gurunath_Sharma_%28Cropped%29.jpg",
+                "source": "ESPN",
+                "average_rating": 4.9,
+                "total_reviews": 1000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
