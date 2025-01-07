@@ -1,0 +1,32 @@
+/* HomePage.css */
+
+/* Ensure all category images have the same height and cover the card area */
+.category-image {
+    height: 300px; /* Adjust as needed */
+    object-fit: cover;
+  }
+  
+  /* Optional: Add a transition for the collapse effect */
+  .collapse-enter {
+    transition: height 0.3s ease;
+  }
+  .collapse-enter-active {
+    height: auto;
+  }
+  .collapse-exit {
+    transition: height 0.3s ease;
+  }
+  .collapse-exit-active {
+    height: 0;
+  }
+  
+  /* Optional: Style the subcategories section */
+  #subcategory-collapse- {
+    /* Additional styles if needed */
+  }
+  
+
+  .bg-gray {
+    background-color: #2C2F33; /* Dark gray background */
+    color: white; /* Optional: Set the text color */
+  }

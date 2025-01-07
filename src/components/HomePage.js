@@ -1,46 +1,48 @@
+// src/components/HomePage.js
 import React, { useState, useEffect } from 'react';
-import SubcategoryCard from './SubcategoryCard'; // Import the SubcategoryCard component
-import Api from '../services/api';  // Import the API class
+import CategoryCard from './CategoryCard'; // Import the CategoryCard component
+import Api from '../services/api';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import '../HomePage.css';
 
 const HomePage = () => {
   const [categories, setCategories] = useState([]);
   const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(false);
 
-  // Fetch categories using the API class
   useEffect(() => {
     const fetchCategories = async () => {
+      setLoading(true);
       try {
         const data = await Api.getCategories();
-        setCategories(data);  // Set categories data
+        setCategories(data); // Ensure the API returns { categories: [...] }
       } catch (error) {
-        setError('Failed to load categories');  // Set error state if API fails
+        setError('Failed to load categories');
+      } finally {
+        setLoading(false);
       }
     };
 
-    fetchCategories(); // Fetch categories when the component is mounted
+    fetchCategories();
   }, []);
 
   return (
-    <div>
-      <h1>Welcome to TopPickHub</h1>
-      <h2>Explore Our Top Categories</h2>
+    <Container>
+      <h2 className="mb-4 text-center">Explore Our Top Categories</h2>
 
-      {error && <div style={{ color: 'red' }}>{error}</div>}
+      {loading && <div className="text-center">Loading categories...</div>}
+      {error && <div style={{ color: 'red' }} className="mb-4 text-center">{error}</div>}
 
-      <div className="category-cards">
+      <Row className="category-cards">
         {categories.map(category => (
-          <div key={category.id} className="category-card">
-            <h3>{category.name}</h3>
-            <p>{category.description}</p>
-            <div>
-              {category.subcategories.map(subcategory => (
-                <SubcategoryCard key={subcategory.id} subcategory={subcategory} />
-              ))}
-            </div>
-          </div>
+          <Col key={category.id} xs={12} sm={6} md={4} lg={3} className="mb-4 d-flex">
+            <CategoryCard category={category} />
+          </Col>
         ))}
-      </div>
-    </div>
+      </Row>
+    </Container>
   );
 };
 

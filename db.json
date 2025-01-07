@@ -5,13 +5,15 @@
         "name": "Electronics",
         "slug": "electronics",
         "description": "Top electronics and gadgets.",
+        "image": "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=800",
         "subcategories": [
           {
-            "id": 1,
-            "category_id": 1,
-            "name": "Electric Toothbrush",
-            "slug": "electric-toothbrush",
-            "description": "Best electric toothbrushes for dental care.",
+          "id": 1,
+          "category_id": 1,
+          "name": "Smartphones",
+          "slug": "smartphones",
+          "description": "Top smartphones in the market.",
+          "image": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=800",
             "items": [
               {
                 "id": 1,
@@ -23,6 +25,116 @@
                 "source": "Amazon",
                 "average_rating": 4.8,
                 "total_reviews": 1000
+              },
+              {
+                "id": 1,
+                "subcategory_id": 1,
+                "name": "iPhone 14 Pro",
+                "rank": 1,
+                "description": "Latest Apple flagship phone.",
+                "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-max-family-select",
+                "source": "Apple Store",
+                "average_rating": 4.9,
+                "total_reviews": 5000
+              },
+              {
+                "id": 2,
+                "subcategory_id": 1,
+                "name": "Samsung Galaxy S23",
+                "rank": 2,
+                "description": "Flagship phone from Samsung.",
+                "image": "https://images.samsung.com/is/image/samsung/assets/global/galaxy/galaxy-s23/gallery/galaxy-s23/gallery-s23-sm-s23-phantom-black-back.jpg",
+                "source": "Samsung Store",
+                "average_rating": 4.8,
+                "total_reviews": 4500
+              },
+              {
+                "id": 3,
+                "subcategory_id": 1,
+                "name": "Google Pixel 7",
+                "rank": 3,
+                "description": "Google's latest Pixel phone.",
+                "image": "https://store.google.com/us/product/pixel_7/images/hero_pixel7.png",
+                "source": "Google Store",
+                "average_rating": 4.7,
+                "total_reviews": 3000
+              },
+              {
+                "id": 4,
+                "subcategory_id": 1,
+                "name": "OnePlus 11",
+                "rank": 4,
+                "description": "High-performance phone from OnePlus.",
+                "image": "https://cdn.oneplus.com/store/hero_image/11_series.jpg",
+                "source": "OnePlus Store",
+                "average_rating": 4.6,
+                "total_reviews": 2800
+              },
+              {
+                "id": 5,
+                "subcategory_id": 1,
+                "name": "Sony Xperia 5",
+                "rank": 5,
+                "description": "Compact and powerful phone from Sony.",
+                "image": "https://images.sony.com/is/image/Sony/store/sony_xperia5.jpg",
+                "source": "Sony Store",
+                "average_rating": 4.5,
+                "total_reviews": 2000
+              },
+              {
+                "id": 6,
+                "subcategory_id": 1,
+                "name": "Xiaomi Mi 12",
+                "rank": 6,
+                "description": "Affordable high-performance phone.",
+                "image": "https://mi.com/global/image/Mi12.jpg",
+                "source": "Mi Store",
+                "average_rating": 4.4,
+                "total_reviews": 1500
+              },
+              {
+                "id": 7,
+                "subcategory_id": 1,
+                "name": "Oppo Find X6",
+                "rank": 7,
+                "description": "Premium phone from Oppo.",
+                "image": "https://oppo.com/product_images/FindX6.jpg",
+                "source": "Oppo Store",
+                "average_rating": 4.3,
+                "total_reviews": 1400
+              },
+              {
+                "id": 8,
+                "subcategory_id": 1,
+                "name": "Huawei P60",
+                "rank": 8,
+                "description": "Innovative flagship from Huawei.",
+                "image": "https://huawei.com/images/P60.jpg",
+                "source": "Huawei Store",
+                "average_rating": 4.2,
+                "total_reviews": 1300
+              },
+              {
+                "id": 9,
+                "subcategory_id": 1,
+                "name": "Realme GT 3",
+                "rank": 9,
+                "description": "Fast and reliable phone from Realme.",
+                "image": "https://realme.com/product_images/GT3.jpg",
+                "source": "Realme Store",
+                "average_rating": 4.1,
+                "total_reviews": 1200
+              },
+              {
+                "id": 10,
+                "subcategory_id": 1,
+                "name": "Vivo X90",
+                "rank": 10,
+                "description": "Flagship phone from Vivo.",
+                "image": "https://vivo.com/product_images/X90.jpg",
+                "source": "Vivo Store",
+                "average_rating": 4.0,
+                "total_reviews": 1100
               }
             ]
           }
@@ -33,6 +145,7 @@
         "name": "Cricket",
         "slug": "cricket",
         "description": "Top cricket players and equipment.",
+        "image": "https://media.istockphoto.com/id/1354439687/vector/illustration-of-batsman-and-bowler-playing-cricket-championship-sports-with-trophy-on-blue.jpg?s=612x612&w=0&k=20&c=TZNvc0gHwsV8jrmLL-k26LfNYmuhF1J4lt0YRIWzsjY=",
         "subcategories": [
           {
             "id": 3,
@@ -40,6 +153,7 @@
             "name": "India Team",
             "slug": "india-team",
             "description": "Top players in the Indian cricket team.",
+            "image": "https://example.com/philips-sonicare.jpg",
             "items": [
               {
                 "id": 1,
@@ -60,6 +174,325 @@
                 "source": "ESPN",
                 "average_rating": 4.9,
                 "total_reviews": 1000
+              },
+              {
+                "id": 3,
+                "name": "Rohit Sharma Helmet",
+                "rank": 3,
+                "description": "Durable cricket helmet used by Rohit Sharma.",
+                "image": "https://example.com/rohit-sharma-helmet.jpg",
+                "source": "Decathlon",
+                "average_rating": 4.7,
+                "total_reviews": 1100
+              },
+              {
+                "id": 4,
+                "name": "Jasprit Bumrah Ball",
+                "rank": 4,
+                "description": "Cricket ball preferred by Jasprit Bumrah.",
+                "image": "https://example.com/jasprit-bumrah-ball.jpg",
+                "source": "Amazon",
+                "average_rating": 4.6,
+                "total_reviews": 1000
+              },
+              {
+                "id": 5,
+                "name": "Hardik Pandya Shoes",
+                "rank": 5,
+                "description": "Comfortable cricket shoes worn by Hardik Pandya.",
+                "image": "https://example.com/hardik-pandya-shoes.jpg",
+                "source": "Myntra",
+                "average_rating": 4.5,
+                "total_reviews": 950
+              },
+              {
+                "id": 6,
+                "name": "KL Rahul Pads",
+                "rank": 6,
+                "description": "Lightweight cricket pads used by KL Rahul.",
+                "image": "https://example.com/kl-rahul-pads.jpg",
+                "source": "Flipkart",
+                "average_rating": 4.4,
+                "total_reviews": 900
+              },
+              {
+                "id": 7,
+                "name": "Shikhar Dhawan Cap",
+                "rank": 7,
+                "description": "Stylish cricket cap worn by Shikhar Dhawan.",
+                "image": "https://example.com/shikhar-dhawan-cap.jpg",
+                "source": "Decathlon",
+                "average_rating": 4.3,
+                "total_reviews": 850
+              },
+              {
+                "id": 8,
+                "name": "Ravindra Jadeja Kit",
+                "rank": 8,
+                "description": "Complete cricket kit used by Ravindra Jadeja.",
+                "image": "https://example.com/ravindra-jadeja-kit.jpg",
+                "source": "Amazon",
+                "average_rating": 4.2,
+                "total_reviews": 800
+              },
+              {
+                "id": 9,
+                "name": "Yuzvendra Chahal Stump",
+                "rank": 9,
+                "description": "Premium cricket stump chosen by Yuzvendra Chahal.",
+                "image": "https://example.com/yuzvendra-chahal-stump.jpg",
+                "source": "Flipkart",
+                "average_rating": 4.1,
+                "total_reviews": 750
+              },
+              {
+                "id": 10,
+                "name": "Bhuvneshwar Kumar Ball",
+                "rank": 10,
+                "description": "Special swing ball used by Bhuvneshwar Kumar.",
+                "image": "https://example.com/bhuvneshwar-kumar-ball.jpg",
+                "source": "Amazon",
+                "average_rating": 4.0,
+                "total_reviews": 700
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Books",
+        "slug": "books",
+        "description": "A collection of the best books across genres.",
+        "image": "https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "subcategories": [
+          {
+            "id": 1,
+            "category_id": 1,
+            "name": "Fictional",
+            "slug": "fictional",
+            "description": "Top fictional books to read.",
+            "image": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "items": [
+              {
+                "id": 1,
+                "subcategory_id": 1,
+                "name": "To Kill a Mockingbird",
+                "rank": 1,
+                "description": "A classic novel by Harper Lee.",
+                "image": "https://example.com/to-kill-a-mockingbird.jpg",
+                "source": "Amazon",
+                "average_rating": 4.9,
+                "total_reviews": 3200
+              },
+              {
+                "id": 2,
+                "subcategory_id": 1,
+                "name": "1984",
+                "rank": 2,
+                "description": "A dystopian novel by George Orwell.",
+                "image": "https://example.com/1984.jpg",
+                "source": "Barnes & Noble",
+                "average_rating": 4.8,
+                "total_reviews": 2800
+              },
+              {
+                "id": 3,
+                "subcategory_id": 1,
+                "name": "The Great Gatsby",
+                "rank": 3,
+                "description": "A novel by F. Scott Fitzgerald.",
+                "image": "https://example.com/the-great-gatsby.jpg",
+                "source": "Amazon",
+                "average_rating": 4.7,
+                "total_reviews": 2500
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "category_id": 1,
+            "name": "Non-Fiction",
+            "slug": "non-fiction",
+            "description": "Top non-fiction books for knowledge and inspiration.",
+            "image": "https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "items": [
+              {
+                "id": 4,
+                "subcategory_id": 2,
+                "name": "Sapiens: A Brief History of Humankind",
+                "rank": 1,
+                "description": "By Yuval Noah Harari.",
+                "image": "https://example.com/sapiens.jpg",
+                "source": "Amazon",
+                "average_rating": 4.8,
+                "total_reviews": 3100
+              },
+              {
+                "id": 5,
+                "subcategory_id": 2,
+                "name": "Educated",
+                "rank": 2,
+                "description": "A memoir by Tara Westover.",
+                "image": "https://example.com/educated.jpg",
+                "source": "Barnes & Noble",
+                "average_rating": 4.7,
+                "total_reviews": 2900
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Travel Destinations",
+        "slug": "travel-destinations",
+        "description": "Explore the best travel destinations across seasons.",
+        "image": "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "subcategories": [
+          {
+            "id": 1,
+            "category_id": 1,
+            "name": "Winter Destinations",
+            "slug": "winter-destinations",
+            "description": "Top destinations to visit during winter.",
+            "image": "https://images.pexels.com/photos/753626/pexels-photo-753626.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "items": [
+              {
+                "id": 1,
+                "subcategory_id": 1,
+                "name": "Swiss Alps",
+                "rank": 1,
+                "description": "Experience the breathtaking beauty of the Swiss Alps.",
+                "image": "https://example.com/swiss-alps.jpg",
+                "source": "TripAdvisor",
+                "average_rating": 4.9,
+                "total_reviews": 1500
+              },
+              {
+                "id": 2,
+                "subcategory_id": 1,
+                "name": "Aspen, Colorado",
+                "rank": 2,
+                "description": "A winter paradise for skiing and relaxation.",
+                "image": "https://example.com/aspen.jpg",
+                "source": "Expedia",
+                "average_rating": 4.8,
+                "total_reviews": 1300
+              },
+              {
+                "id": 3,
+                "subcategory_id": 1,
+                "name": "Banff National Park",
+                "rank": 3,
+                "description": "Discover the snowy peaks and serene landscapes of Banff.",
+                "image": "https://example.com/banff.jpg",
+                "source": "Lonely Planet",
+                "average_rating": 4.7,
+                "total_reviews": 1200
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "category_id": 1,
+            "name": "Summer Destinations",
+            "slug": "summer-destinations",
+            "description": "Top destinations to visit during summer.",
+            "image": "https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "items": [
+              {
+                "id": 4,
+                "subcategory_id": 2,
+                "name": "Maldives",
+                "rank": 1,
+                "description": "Enjoy the pristine beaches and luxury resorts.",
+                "image": "https://example.com/maldives.jpg",
+                "source": "TripAdvisor",
+                "average_rating": 4.9,
+                "total_reviews": 1800
+              },
+              {
+                "id": 5,
+                "subcategory_id": 2,
+                "name": "Santorini, Greece",
+                "rank": 2,
+                "description": "Explore the iconic white-washed buildings and blue domes.",
+                "image": "https://example.com/santorini.jpg",
+                "source": "Expedia",
+                "average_rating": 4.8,
+                "total_reviews": 1700
+              },
+              {
+                "id": 6,
+                "subcategory_id": 2,
+                "name": "Bali, Indonesia",
+                "rank": 3,
+                "description": "A tropical paradise with stunning beaches and culture.",
+                "image": "https://example.com/bali.jpg",
+                "source": "Lonely Planet",
+                "average_rating": 4.7,
+                "total_reviews": 1600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Health & Fitness",
+        "slug": "health-fitness",
+        "description": "Stay fit and healthy with these top picks.",
+        "image": "https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "subcategories": [
+          {
+            "id": 2,
+            "category_id": 2,
+            "name": "Workout Equipment",
+            "slug": "workout-equipment",
+            "description": "Best equipment for your fitness journey.",
+            "image": "https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "items": [
+              {
+                "id": 2,
+                "subcategory_id": 2,
+                "name": "Adjustable Dumbbells",
+                "rank": 1,
+                "description": "Compact and versatile dumbbells for home workouts.",
+                "image": "https://example.com/dumbbells.jpg",
+                "source": "Amazon",
+                "average_rating": 4.8,
+                "total_reviews": 2000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Food & Beverages",
+        "slug": "food-beverages",
+        "description": "Delicious treats and refreshing drinks for every occasion.",
+        "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "subcategories": [
+          {
+            "id": 5,
+            "category_id": 5,
+            "name": "Desserts",
+            "slug": "desserts",
+            "description": "Indulge in the sweetest desserts around.",
+            "image": "https://images.pexels.com/photos/3026809/pexels-photo-3026809.jpeg?auto=compress&cs=tinysrgb&w=800",
+            "items": [
+              {
+                "id": 5,
+                "subcategory_id": 5,
+                "name": "Tiramisu",
+                "rank": 1,
+                "description": "A classic Italian dessert with layers of coffee-soaked biscuits and mascarpone.",
+                "image": "https://example.com/tiramisu.jpg",
+                "source": "Food Network",
+                "average_rating": 4.9,
+                "total_reviews": 1800
               }
             ]
           }
